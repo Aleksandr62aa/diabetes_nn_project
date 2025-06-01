@@ -6,8 +6,8 @@ from torch.utils.data import DataLoader
 from nodes.CustomDataset import CustomDataset
 from nodes.DiabedNet import DiabedNet
 from nodes.TrainingNN import TrainingNN
-from utils_local.ClassificationMetrics import ClassificationMetrics
-from utils_local.utils import random_seed, plotting, summary_model
+from utils.ClassificationMetrics import ClassificationMetrics
+from utils.utils import random_seed, plotting, summary_model
 
 def main() -> None:
     config = toml.load("configs/config.toml")
