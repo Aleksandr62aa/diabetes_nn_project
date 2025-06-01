@@ -1,0 +1,22 @@
+[training]
+num_epochs = 58
+learning_rate = 1.0e-3
+batch_size = 128
+
+[dataset]
+file_data = 'test_diabetes/diabetes.csv'
+train_ratio = 0.8
+
+[model]
+input_size = 8
+n_hidden_1 = 64
+n_hidden_2 = 32
+n_hidden_3 = 16
+classes = 2
+
+[results]
+metrics = true
+plotting_loss = false
+plotting_acc = true
+summary_net = true
+
