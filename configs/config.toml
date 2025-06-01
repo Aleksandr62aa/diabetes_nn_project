@@ -4,7 +4,7 @@ learning_rate = 1.0e-3
 batch_size = 128
 
 [dataset]
-file_data = 'test_diabetes/diabetes.csv'
+file_data = 'data/diabetes.csv'
 train_ratio = 0.8
 
 [model]
