@@ -16,6 +16,10 @@ Aleksandr62aa
 ```
 !git clone https://github.com/Aleksandr62aa/diabetes_nn_project.git
 ```
+Перейдите в директорию проекта:
+```
+%cd diabetes_nn_project
+```
 Установите зависимости:
 ```
 !pip install -r requirements.txt
