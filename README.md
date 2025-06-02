@@ -7,14 +7,21 @@
 
 ## Авторы
 AlyonaHV
+
 Aleksandr62aa
 
-## Установка и запуск:
+## Установка и запуск :
 
 Склонируйте репозиторий:
 ```
-git clone https://github.com/Koldim2001/TrafficAnalyzer.git
+!git clone https://github.com/Aleksandr62aa/diabetes_nn_project.git
 ```
+Установите зависимости:
+```
+!pip install -r requirements.txt
+```
+
+
 После этого необходимо в главной директории  проекта создать файл с переменными окружения, которые будут прокинуты в контейнеры Grafana и Influx. Для этого создайте файл `.env` и укажите подобный текст с паролями и логинами к сервисам:
 ```
 
