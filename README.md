@@ -24,6 +24,7 @@ Aleksandr62aa
 ```
 !pip install -r requirements.txt
 ```
+Перед запуском проекта вы можете изменить начальные параметры в конфигурационном файле configs/config.toml.
 Далее запустите проект:
 ```
 from main import main
