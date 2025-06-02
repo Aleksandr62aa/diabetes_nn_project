@@ -24,7 +24,7 @@ Aleksandr62aa
 ```
 !pip install -r requirements.txt
 ```
-Далее запустите проект с помощью этой команды:
+Далее запустите проект:
 ```
 from main import main
 main()
