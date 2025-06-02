@@ -46,7 +46,7 @@ Aleksandr62aa
 from main import main
 main()
 ```
-## Примеры работы кода
+## Пример работы кода
 Ниже приведён пример запуска алгоритма с начальными параметрами, а также с выводом статистики, архитектуры модели и результатов её обучения:
 
 ![1](https://github.com/Aleksandr62aa/diabetes_nn_project/blob/main/results/results.png)
