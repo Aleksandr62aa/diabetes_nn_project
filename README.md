@@ -28,7 +28,7 @@ Aleksandr62aa
 
 Обучение: 80 эпох
 
-## Запуск проекта (в Google Colab):
+## Установка и запуск проекта (в Google Colab):
 Склонируйте репозиторий:
 ```
 !git clone https://github.com/Aleksandr62aa/diabetes_nn_project.git
