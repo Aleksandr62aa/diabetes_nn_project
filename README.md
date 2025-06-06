@@ -51,7 +51,15 @@ main()
 
 ![1](https://github.com/Aleksandr62aa/diabetes_nn_project/blob/main/results/results.png)
 
+Структура ветвления Git проекта представлена ниже:
 
+```
+main
+└── prod_docker_version
+    └── multicamera
+        ├── feature/triton
+        └── feature/influx
+```
 
 
 
