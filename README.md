@@ -67,7 +67,7 @@ diabetes_nn_project/
 ├── utils/
 │   ├── ClassificationMetrics.py
 │   └──utils.py
-├── README.md
 ├── main.py
+├── README.md
 └── requirements.txt
 ```
