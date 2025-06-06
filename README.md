@@ -70,14 +70,4 @@ diabetes_nn_project/
 ├── README.md
 ├── main.py
 └── requirements.txt
-
-
-
-└── prod_docker_version
-    ├── feature/triton
-
-
-    └── multicamera
-        ├── feature/triton
-        └── feature/influx
 ```
