@@ -53,8 +53,11 @@ main()
 
 ## Файловая структура проекта
 ```
-main
+diabetes_nn_project
 └── prod_docker_version
+    ├── feature/triton
+
+
     └── multicamera
         ├── feature/triton
         └── feature/influx
