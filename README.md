@@ -59,9 +59,11 @@ diabetes_nn_project/
 ├── data
 │   └── diabetes.csv
 ├── nodes
-│   └──
+│   ├── CustomDataset.py
+│   ├── DiabedNet.py
+│   └── TrainingNN.py
 ├── results
-│   └──
+│   └── results.png
 ├── utils
 │   ├── ClassificationMetrics.py
 │   └──utils.py
