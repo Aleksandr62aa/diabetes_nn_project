@@ -1,4 +1,4 @@
-# Система для определения наличия диабета
+├── feature/triton├── feature/triton# Система для определения наличия диабета
 
 ## Описание проекта
 Цель проекта — построение модели классификации на основе нейронной сети (NN), определяющей наличие диабета на основе медицинских данных.
@@ -53,7 +53,24 @@ main()
 
 ## Файловая структура проекта
 ```
-diabetes_nn_project
+diabetes_nn_project/
+├── configs
+│   └── config.toml
+├── data
+│   └── diabetes.csv
+├── nodes
+│   └──
+├── results
+│   └──
+├── utils
+│   ├── ClassificationMetrics.py
+│   └──utils.py
+├── README.md
+├── main.py
+└── requirements.txt
+
+
+
 └── prod_docker_version
     ├── feature/triton
 
