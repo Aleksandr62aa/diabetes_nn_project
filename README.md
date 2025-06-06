@@ -54,13 +54,4 @@ main()
 
 
 
-VisDrone2019-DET/
-├── train/
-│   ├── images/
-│   ├── annotations/
-├── val/
-│   ├── images/
-│   ├── annotations/
-├── test-dev/
-│   ├── images/
-│   ├── annotations/ (или их нет — для соревнований)
+
