@@ -51,8 +51,7 @@ main()
 
 ![1](https://github.com/Aleksandr62aa/diabetes_nn_project/blob/main/results/results.png)
 
-Структура ветвления Git проекта представлена ниже:
-
+## Файловая структура проекта
 ```
 main
 └── prod_docker_version
@@ -60,47 +59,3 @@ main
         ├── feature/triton
         └── feature/influx
 ```
-
-
-drone_ai_project/
-├── README.md
-├── requirements.txt
-├── environment.yml             # (если используешь conda)
-├── yolov8_tracking/            # Детекция + трекинг
-│   ├── detect_and_track.py     # основной скрипт YOLOv8 + трекинг
-│   ├── config/
-│   │   └── bytetrack.yaml      # конфиг для трекера
-│   └── weights/
-│       └── yolov8n.pt          # веса модели
-│
-├── dataset/                    # Данные
-│   ├── visdrone/
-│   │   ├── images/
-│   │   │   ├── train/
-│   │   │   └── val/
-│   │   └── labels/
-│   │       ├── train/
-│   │       └── val/
-│   ├── drone_video.mp4         # Тестовое видео
-│   └── visdrone.yaml           # data config для YOLOv8
-│
-├── training/                   # Обучение моделей
-│   ├── train_yolo.py
-│   └── logs/
-│       └── yolov8_train.log
-│
-├── inference/                  # Скрипты для инференса
-│   ├── run_detection.py
-│   ├── run_tracking.py
-│   └── outputs/
-│       ├── output_tracked.mp4
-│       └── frames/
-│
-├── slam_simulation/            # Для экспериментов с AirSim или другими симами
-│   ├── run_slam.py
-│   ├── airsim_env_setup.md
-│   └── camera_feed.mp4
-│
-├── jetson_optimization/        # Оптимизация под Jetson
-│   ├── convert_to_tensorrt.py
-│   ├── test_fp_
