@@ -51,3 +51,16 @@ main()
 
 ![1](https://github.com/Aleksandr62aa/diabetes_nn_project/blob/main/results/results.png)
 
+
+
+
+VisDrone2019-DET/
+├── train/
+│   ├── images/
+│   ├── annotations/
+├── val/
+│   ├── images/
+│   ├── annotations/
+├── test-dev/
+│   ├── images/
+│   ├── annotations/ (или их нет — для соревнований)
