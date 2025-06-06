@@ -54,17 +54,17 @@ main()
 ## Файловая структура проекта
 ```
 diabetes_nn_project/
-├── configs
+├── configs/
 │   └── config.toml
-├── data
+├── data/
 │   └── diabetes.csv
-├── nodes
+├── nodes/
 │   ├── CustomDataset.py
 │   ├── DiabedNet.py
 │   └── TrainingNN.py
-├── results
+├── results/
 │   └── results.png
-├── utils
+├── utils/
 │   ├── ClassificationMetrics.py
 │   └──utils.py
 ├── README.md
