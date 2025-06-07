@@ -20,7 +20,7 @@
 Активация: **ReLU**  
 
 ## Установка и запуск проекта (в Google Colab):
-Склонируйте репозиторий:
+> Склонируйте репозиторий:
 ```
 !git clone https://github.com/Aleksandr62aa/diabetes_nn_project.git
 ```
