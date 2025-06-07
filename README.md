@@ -49,7 +49,7 @@ main()
 ## Пример работы кода
 Ниже приведён пример запуска алгоритма с начальными параметрами, а также с выводом статистики, архитектуры модели и результатов её обучения:
 
-![1](https://github.com/Aleksandr62aa/diabetes_nn_project/blob/main/results/results.png)
+![1](https://github.com/Aleksandr62aa/diabetes_nn_project/blob/main/results/results_1.png)
 
 ## Файловая структура проекта
 ```
