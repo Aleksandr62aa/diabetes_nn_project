@@ -21,9 +21,6 @@ def plotting_pr(precision, recall, ap):
     plt.tight_layout()
     plt.show()
 
-
-
-
 # Fixed seed
 def random_seed():    
     random.seed(9)
