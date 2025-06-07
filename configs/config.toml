@@ -16,6 +16,7 @@ classes = 2
 
 [results]
 metrics = true
+plotting_pr = true
 plotting_loss = false
 plotting_acc = true
 summary_net = true
